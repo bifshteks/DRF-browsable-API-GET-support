@@ -12,7 +12,7 @@ Mb in the future, but idk.
 
 ## Usage
 * Put somewhere the GETFormBrowsableAPIRenderer class from `renderers.py` (I suggest copying the whole file, it's already called properly)
-* Put somewhere the `browesable-api-template.html` file (to a template dir, for example `<proj_root>/templates`, 
+* Put somewhere the `browsable-api-template.html` file (to a template dir, for example `<proj_root>/templates`, 
   django will find it there)
 * Point DRF to use the renderer class. You can do it either:
     * globally, in settings, 
